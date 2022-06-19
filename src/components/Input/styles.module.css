@@ -1,0 +1,17 @@
+.AddTasksInput {
+  font-size: 1rem;
+  font-weight: normal;
+
+  padding: 1rem;
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+
+  border: 1px solid var(--gray-700);
+  border-radius: 0.5rem;
+
+  width: 100%;
+}
+
+.AddTasksInput:focus {
+  outline: 1px solid var(--purple);
+}

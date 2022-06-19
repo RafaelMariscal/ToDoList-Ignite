@@ -1,0 +1,15 @@
+.trash {
+  box-sizing: initial;
+  padding: .3rem;
+  background-color: transparent;
+  justify-self: flex-end;
+}
+
+.trash:hover {
+  background-color: var(--gray-400);
+  border-radius: .25rem;
+}
+
+.trash:hover * {
+  fill: var(--danger);
+}
